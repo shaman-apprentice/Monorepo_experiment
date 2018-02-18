@@ -1,6 +1,6 @@
 import React from "react"
 
-export function MyButton({ label, onclick }) {
+export function Button({ label, onclick }) {
     return (
         <button onClick={onclick}>{label}</button>
     );

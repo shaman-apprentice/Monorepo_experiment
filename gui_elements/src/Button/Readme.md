@@ -1,5 +1,5 @@
 ```js
-    const MyButton = require('./index.js').MyButton;
+    const Button = require('./index.js').Button;
 
-    <MyButton label={"test"} onclick={() => console.log("hi")}/>
+    <Button label={"test"} onclick={() => console.log("hi")}/>
 ```

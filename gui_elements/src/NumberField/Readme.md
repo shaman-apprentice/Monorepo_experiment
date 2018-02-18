@@ -1,5 +1,5 @@
 ```js
-    const Button = require('./index.js').Button;
+    const NumberField = require('./index.js').NumberField;
 
-    <Button label={"test"} onclick={() => console.log("hi")}/>
+    <NumberField onChange={ (v) => console.log(v) } />
 ```
