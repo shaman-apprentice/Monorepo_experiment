@@ -9,7 +9,6 @@
   },
   "devDependencies": {
     "calculator_lib": "*",
-    "gui_elements": "*",
-    "prop-types": "^15.6.0"
+    "gui_elements": "*"
   }
 }

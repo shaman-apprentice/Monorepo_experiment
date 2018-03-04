@@ -5,6 +5,6 @@
   "main": "src/index.js",
   "scripts": {
     "start": "styleguidist server",
-    "test": "jest"
+    "test": "jest --config=../jest.config.js --testRegex=gui_elements\/src\/.*\\.test.[tj]sx?$"
   }
 }

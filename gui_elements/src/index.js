@@ -1,2 +1,2 @@
-export { Button } from './Button'
-export { NumberField } from './NumberField'
+export { Button } from './Button/index';
+export { NumberField } from './NumberField/index';
