@@ -3,3 +3,5 @@ yarn.lock
 node_modules
 bundle.js
 dist
+# ignore compiled typescript files (everything inside own src code must be ts or tsx for this to work)
+# src/**/*.js
