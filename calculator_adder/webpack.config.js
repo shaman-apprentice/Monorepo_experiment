@@ -9,7 +9,7 @@ module.exports = {
     module: {
       rules: [
           {
-              test: /\.[t|j]s?x/,
+              test: /\.[tj]sx?$/,
               use: [ 'babel-loader', 'awesome-typescript-loader' ]
           }
       ]
